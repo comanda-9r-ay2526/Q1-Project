@@ -1,0 +1,141 @@
+body {
+	background-image: url(https://unblast.com/wp-content/uploads/2022/01/Paper-Texture-4.jpg);
+	background-size: cover;
+	font-family: "DM Serif Display", serif;
+}
+
+hr {
+	height: 5px;
+	border: none;
+	background-color: #B8BDB5;
+	width: 30%;
+}
+
+.dm-serif-display-regular {
+ 	font-family: "DM Serif Display", serif;
+ 	font-weight: 400;
+  	font-style: normal;
+}
+
+.dm-serif-display-regular-italic {
+	font-family: "DM Serif Display", serif;
+ 	font-weight: 400;
+ 	font-style: italic;
+}
+
+.header {
+	border: 20px double #B8BDB5;
+	margin: 10px;
+	padding: 5px;
+	background: #E0E2DB;
+	text-align: center;
+	font-size: 25px;
+	letter-spacing: 15px;
+	color: #5F7470;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.imageme {
+	border: 15px double #b8bdb5;
+	background: #e0e2db;
+	margin: 10px;
+	padding: 20px;
+	width: 50%;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 20px;
+	color: #4a5c59;
+}
+
+.aboutme {
+	border: 15px double #b8bdb5;
+	background: #e0e2db;
+	margin: 10px;
+	padding: 20px;
+	width: 30%;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 20px;
+	color: #4a5c59;
+}
+
+.myworks {
+	border: 15px double #b8bdb5;
+	background: #e0e2db;
+	margin: auto;
+	padding: 20px;
+	width: 84%;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 20px;
+	color: #4a5c59;
+}
+
+ul {
+	display: table;
+	margin: 0 auto;
+}
+
+.contact {
+	border: 15px double #b8bdb5;
+	background: #e0e2db;
+	margin: auto;
+	padding: 10px 40px;
+	width: 30%;
+	letter-spacing: 1px;
+	font-size: 20px;
+	color: #4a5c59;
+}
+
+input[type=text] {
+			width: 100%;
+			padding: 12px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+}
+
+input[type=email], select {
+		width: 100%;
+		padding: 12px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+}
+
+textarea {
+		width: 100%;
+		padding: 12px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+}
+
+input[type=submit] {
+			width: 100%;
+			background-color: #32a852;
+			color: white;
+			padding: 20px;
+			margin: 8px 0;
+			border: solid;
+			border-radius: 4px;
+			border-color: #278240;
+			cursor: pointer;
+}
+
+footer {
+	text-align: center;
+	color: white;
+	background-color: #212529;
+	padding: 20px;
+}
